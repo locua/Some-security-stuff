@@ -1,0 +1,25 @@
+* Authentication
+
+** Assure you are who you say you are
+Password systems or retina verfication systems
+
+** Assure that communication is authentication
+- Single message
+- Ongoing communication messages
+- X.800
+  - Peer entity authentication: provides confidence about the identity of a communication peer. It offers protection use at the establishment or during the data transfer phase.
+  - Data origin authentication: provides confidence about the source of a communication data unit. It offers protection against the duplication or modification of the data.
+
+* Authentication may be required without confidentiality
+
+** For example,
+- the same message is broadcast to a number of destinations, e.g. users:
+  - inform "the college networks is unavailable" in plaint text with an associated authentication message tag
+  - alarm signal in a control centre
+
+** The receipt is too busy for decryption
+
+* Message authentication code (MAC)
+
+This technique uses a secret key (short piece of information) used to authenticate a message. Confirms the sender.
+

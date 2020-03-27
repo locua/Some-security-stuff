@@ -1,0 +1,8 @@
+* Computer Security
+2 hour lectures
+1 hour workshop-lab
+2 hour surgeries
+   1400-1500 Monday
+   1400-1500 Thursday
+** Book - Security in computing - [[file:security-in-computing.pdf]]
+
